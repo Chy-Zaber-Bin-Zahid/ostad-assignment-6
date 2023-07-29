@@ -1,0 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  font-size: 65.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-main{
+  border: 3px solid black;
+  width: 50rem;
+  padding: 1rem;
+  background-color: rgb(199, 199, 199);
+}

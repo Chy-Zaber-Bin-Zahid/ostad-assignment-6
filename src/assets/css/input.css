@@ -1,0 +1,49 @@
+.input-main{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.input{
+  padding: 1rem;
+  font-size: 1.6rem;
+  border: 3px solid white;
+  background-color: aquamarine;
+}
+
+.input:focus{
+  outline: 2px solid aquamarine;
+}
+
+.btn{
+  padding: 1rem;
+  width: 10rem;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.6rem;
+  transition: all .3s;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: white;
+  color: red;
+}
+
+.list-ol{
+  padding-left: 3rem;
+}
+
+.list-main{
+  display: flex;
+  gap: 1rem;
+  font-size: 2rem;
+  word-break: break-all;
+}
+
+.list-main:not(:last-child){
+  margin-bottom: 1rem;
+}
